@@ -1,0 +1,70 @@
+
+-
+    request:
+        method: POST
+        url: 'https://rest.nexmo.com/sms/json'
+        headers:
+            Host: rest.nexmo.com
+            Expect: ''
+            Accept-Encoding: ''
+            content-type: application/json
+            User-Agent: 'vonage-php/3.0.2@0cd4e83ca1310741170491a6c235ed5ede45be80 php/8.1'
+            Accept: ''
+        body: '{"text":"Hello from Vonage!","to":"447738099910","from":"JIM SECONDE@VONAGE","type":"unicode","ttl":259200000,"status-report-req":1,"api_key":"232130c9","api_secret":"mOHPMgmBQBRO8xNB"}'
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Mon, 14 Feb 2022 15:19:29 GMT'
+            Content-Type: application/json
+            Transfer-Encoding: chunked
+            Connection: keep-alive
+            Server: envoy
+            Cache-Control: max-age=1
+            Content-Disposition: 'attachment; filename="api.txt"'
+            X-Nexmo-Trace-Id: d2207930-0784-4476-a35a-ca254178dfd7
+            X-Envoy-Upstream-Service-Time: '89'
+            X-Frame-Options: deny
+            X-Xss-Protection: '1; mode=block'
+            Strict-Transport-Security: 'max-age=31536000; includeSubdomains'
+            X-Content-Type-Options: nosniff
+        body: "{\n    \"message-count\": \"1\",\n    \"messages\": [{\n        \"to\": \"447738066610\",\n        \"message-id\": \"1300000076E48CE9\",\n        \"status\": \"0\",\n        \"remaining-balance\": \"3.78506000\",\n        \"message-price\": \"0.03660000\",\n        \"network\": \"23410\"\n    }]\n}"
+        curl_info:
+            url: 'https://rest.nexmo.com/sms/json'
+            content_type: application/json
+            http_code: 200
+            header_size: 478
+            request_size: 366
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.304248
+            namelookup_time: 0.07098
+            connect_time: 0.091893
+            pretransfer_time: 0.174627
+            size_upload: 185.0
+            size_download: 259.0
+            speed_download: 851.0
+            speed_upload: 608.0
+            download_content_length: -1.0
+            upload_content_length: 185.0
+            starttransfer_time: 0.304013
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 168.100.81.10
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 192.168.0.34
+            local_port: 50290
+            http_version: 2
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 174441
+            connect_time_us: 91893
+            namelookup_time_us: 70980
+            pretransfer_time_us: 174627
+            redirect_time_us: 0
+            starttransfer_time_us: 304013
+            total_time_us: 304248
